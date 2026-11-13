@@ -6,6 +6,6 @@ int main(array<String^>^ args)
 {
 	Application::SetCompatibleTextRenderingDefault(false);
 	Application::EnableVisualStyles();
-	Lab6::MyForm form; // Project1 - ім’я вашого проекту
+	Lab6::MyForm form;
 	Application::Run(% form);
 }
