@@ -126,6 +126,7 @@ namespace Lab6 {
 			// 
 			// tabPage1
 			// 
+			this->tabPage1->BackColor = System::Drawing::Color::MistyRose;
 			this->tabPage1->Controls->Add(this->P1dataGridView);
 			this->tabPage1->Controls->Add(this->label3);
 			this->tabPage1->Controls->Add(this->label2);
@@ -140,7 +141,6 @@ namespace Lab6 {
 			this->tabPage1->Size = System::Drawing::Size(376, 333);
 			this->tabPage1->TabIndex = 0;
 			this->tabPage1->Text = L"Одновимірний масив";
-			this->tabPage1->UseVisualStyleBackColor = true;
 			// 
 			// P1dataGridView
 			// 
@@ -191,7 +191,7 @@ namespace Lab6 {
 			// 
 			this->P1buttonCalculate->Location = System::Drawing::Point(21, 128);
 			this->P1buttonCalculate->Name = L"P1buttonCalculate";
-			this->P1buttonCalculate->Size = System::Drawing::Size(253, 23);
+			this->P1buttonCalculate->Size = System::Drawing::Size(345, 23);
 			this->P1buttonCalculate->TabIndex = 2;
 			this->P1buttonCalculate->Text = L"Обчислити";
 			this->P1buttonCalculate->UseVisualStyleBackColor = true;
@@ -202,14 +202,14 @@ namespace Lab6 {
 			this->P1textBoxU->Location = System::Drawing::Point(104, 92);
 			this->P1textBoxU->Multiline = true;
 			this->P1textBoxU->Name = L"P1textBoxU";
-			this->P1textBoxU->Size = System::Drawing::Size(170, 20);
+			this->P1textBoxU->Size = System::Drawing::Size(262, 20);
 			this->P1textBoxU->TabIndex = 1;
 			// 
 			// P1textBoxS
 			// 
 			this->P1textBoxS->Location = System::Drawing::Point(104, 57);
 			this->P1textBoxS->Name = L"P1textBoxS";
-			this->P1textBoxS->Size = System::Drawing::Size(170, 20);
+			this->P1textBoxS->Size = System::Drawing::Size(262, 20);
 			this->P1textBoxS->TabIndex = 0;
 			// 
 			// tabPage2
